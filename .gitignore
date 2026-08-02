@@ -1,0 +1,18 @@
+# Environments & Credentials
+.env
+.env.local
+naver-mcp/.env
+
+# Python compilation
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# IDE settings
+.idea/
+.vscode/
+.claude/
+.gemini/

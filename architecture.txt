@@ -1,0 +1,7 @@
+시스템 구성 및 아키텍처 설명서
+- 클라이언트 인터페이스: 웹 브라우저 및 모바일 앱
+- API 게이트웨이: Cloud Run을 이용한 무상태(Stateless) API 라우팅
+- 스토리지: NCP Object Storage (S3-compatible API 사용)
+- 벡터 데이터베이스: Chroma DB 로컬 임베딩 스토어
+- LLM 서비스: Gemini Enterprise API 연동 및 Custom MCP 연동
+- 인증 보안: JWT 토큰 기반 API Gateway 인증 방식 적용
